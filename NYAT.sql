@@ -20,12 +20,6 @@ SET row_security = off;
 -- Name: NYAT; Type: DATABASE; Schema: -; Owner: postgres
 --
 
-CREATE DATABASE "NYAT" WITH TEMPLATE = template0 ENCODING = 'UTF8' LOCALE = 'English_United Kingdom.1256';
-
-
-ALTER DATABASE "NYAT" OWNER TO postgres;
-
-\connect "NYAT"
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
