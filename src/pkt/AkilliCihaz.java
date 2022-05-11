@@ -52,7 +52,7 @@ public class AkilliCihaz {
                 System.out.println("Yanlis deger girdiniz tekrar deneyin!");
                 break;
         }
-        System.out.println("\nDevam Etmek İstiyormusunuz? e(E)/h(H)");
+        System.out.println("\nDevam Etmek Istiyormusunuz? e(E)/h(H)");
         String userChoice = agArayuzu.veriAl();
         if (userChoice.equalsIgnoreCase("e")) {
             bekle(800);
